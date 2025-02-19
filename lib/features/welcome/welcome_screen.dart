@@ -46,9 +46,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             ),
             Center(
               child: Text(
-                userName != ''
-                    ? 'Hello $userName'
-                    : 'You have not entered your name yet',
+                userName != '' ? 'Hello $userName' : 'Select User Name',
                 style: GoogleFonts.poppins(
                   fontSize: 24,
                   fontWeight: FontWeight.w600,
